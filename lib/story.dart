@@ -1,7 +1,7 @@
 class Story {
   String storyTitle;
-  String choiceOne;
-  String choiceTwo;
+  String choice1;
+  String choice2;
 
-  Story.name(this.storyTitle, this.choiceOne, this.choiceTwo);
+  Story({this.storyTitle, this.choice1, this.choice2});
 }
